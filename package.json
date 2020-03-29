@@ -1,0 +1,41 @@
+{
+  "name": "bridge-aws-es-proxy",
+  "version": "1.0.0",
+  "description": "PAS Bridge service providing proxy for AWS elasticsearch with request signing",
+  "main": "bridge-aws-es-proxy.js",
+  "dependencies": {
+    "aws-es-kibana": "^1.0.8",
+    "aws-sdk": "^2.648.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "e2e-conf": "^3.0.3",
+    "express": "^4.17.1",
+    "figlet": "^1.3.0",
+    "http": "0.0.1-security",
+    "http-proxy": "^1.18.0",
+    "stream": "0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bridge-aws-es-proxy.js",
+    "debug": "node --nolazy --inspect bridge-aws-es-proxy.js"   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwammk/aws-es-kibana.git"
+  },
+  "keywords": [
+    "AWS",
+    "Elasticsearch",
+    "Kibana",
+    "PAS",
+    "Bridge",
+    "Proxy"
+  ],
+  "author": "Dirk Schwammkrug",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/schwammk/aws-es-kibana/issues"
+  },
+  "homepage": "https://github.com/schwammk/aws-es-kibana#readme"
+}

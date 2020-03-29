@@ -1,0 +1,8 @@
+{
+    "endpoint": "search-monitoring-v4-2-lhtoz73a7eh7fy5ch7fwh4fc3a.eu-central-1.es.amazonaws.com",
+    "credentialsFile": "c:/E2E_BRIDGE_DATA/resource/aws-es-creds.ini",
+    "bindAddress": "127.0.0.1",
+    "port": 9200,
+    "region": "eu-central-1",
+    "limit": "10000kb"
+}
