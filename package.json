@@ -5,7 +5,7 @@
   "main": "bridge-aws-es-proxy.js",
   "dependencies": {
     "aws-es-kibana": "^1.0.8",
-    "aws-sdk": "^2.648.0",
+    "aws-sdk": "^2.814.0",
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
     "e2e-conf": "^3.0.3",
